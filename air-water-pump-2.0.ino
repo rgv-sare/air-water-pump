@@ -1,5 +1,5 @@
-const int relayPin1 = 7; // air pump
-const int relayPin2 = 8; // water pump
+#define relayPin1 7 // air pump
+#define relayPin2 8 // water pump
 unsigned long waterPumpStartTime = 0;
 const unsigned long waterPumpOffTime = 28800000; // 8 hours
 
